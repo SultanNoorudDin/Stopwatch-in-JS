@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background: rgb(17, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clock {
+    font-size: 4rem;
+    color: white;
+
+}
+
+button {
+    padding: 1.25rem;
+    width: 200px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, blu0,0.3);
+    background-color: white;
+    margin: 30px ;
+    cursor: pointer;
+    font: 100 1.5rem sans-serif;
+    border-radius: 50px;
+}
+ 
+button.start:hover{
+    background-color: rgb(20, 214, 20);
+    color: white;
+}
+button.stop:hover{
+    background-color: red;
+    color: white;
+}
