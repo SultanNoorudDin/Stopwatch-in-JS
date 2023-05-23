@@ -7,6 +7,6 @@ HTML is used to structure the elements of the stopwatch, including buttons for s
 
 JavaScript plays a crucial role in the functionality of the stopwatch. It handles the logic behind starting, stopping, and resetting the timer. By utilizing JavaScript's built-in functions like `setInterval()` and `clearInterval()`, the stopwatch can accurately track time by updating the display at regular intervals.
 
-When the user clicks the "Start" button, the JavaScript code triggers the timer to begin incrementing the elapsed time. The updated time is then displayed on the screen. Clicking the "Stop" button pauses the timer, while the "Reset" button resets the elapsed time to zero, ready to start again.
+When the user clicks the "Start" button, the JavaScript code triggers the timer to begin incrementing the elapsed time. The updated time is then displayed on the screen. Clicking the "Stop" button pauses the timer, while the "Reset" button was not built, so you have to reload everytime you start from 0.
 
 The Stopwatch project serves as a great example for beginners to understand how HTML, CSS, and JavaScript can be integrated to create a functional and interactive web application. It showcases the power of these technologies in building a practical tool that can be used in various scenarios, such as timing activities, workouts, or games.
